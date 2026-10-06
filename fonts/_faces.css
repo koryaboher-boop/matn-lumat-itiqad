@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Amiri';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/amiri-400i-arabic.woff2') format('woff2');
+  unicode-range: arabic;  /* subset: arabic */
+}
+@font-face {
+  font-family: 'Amiri';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/amiri-400i-latin.woff2') format('woff2');
+  unicode-range: latin;  /* subset: latin */
+}
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/amiri-400-arabic.woff2') format('woff2');
+  unicode-range: arabic;  /* subset: arabic */
+}
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/amiri-400-latin.woff2') format('woff2');
+  unicode-range: latin;  /* subset: latin */
+}
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/amiri-700-arabic.woff2') format('woff2');
+  unicode-range: arabic;  /* subset: arabic */
+}
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/amiri-700-latin.woff2') format('woff2');
+  unicode-range: latin;  /* subset: latin */
+}
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/notokufiarabic-400-arabic.woff2') format('woff2');
+  unicode-range: arabic;  /* subset: arabic */
+}
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/notokufiarabic-400-latin.woff2') format('woff2');
+  unicode-range: latin;  /* subset: latin */
+}
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/notokufiarabic-500-arabic.woff2') format('woff2');
+  unicode-range: arabic;  /* subset: arabic */
+}
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/notokufiarabic-500-latin.woff2') format('woff2');
+  unicode-range: latin;  /* subset: latin */
+}
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/notokufiarabic-600-arabic.woff2') format('woff2');
+  unicode-range: arabic;  /* subset: arabic */
+}
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/notokufiarabic-600-latin.woff2') format('woff2');
+  unicode-range: latin;  /* subset: latin */
+}
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/notokufiarabic-700-arabic.woff2') format('woff2');
+  unicode-range: arabic;  /* subset: arabic */
+}
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/notokufiarabic-700-latin.woff2') format('woff2');
+  unicode-range: latin;  /* subset: latin */
+}
