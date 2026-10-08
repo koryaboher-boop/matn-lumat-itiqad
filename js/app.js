@@ -359,7 +359,7 @@ function sidebar(view) {
     acctCard = '<a class="sb-acct sb-login" href="#/settings"><span class="acct-av big">' + ic('user', 15) + '</span><div class="sba-tx"><b>تسجيل الدخول</b><small>لحفظ تقدّمك ومزامنته</small></div></a>';
   }
   return '<aside class="sidebar" aria-label="التنقل الجانبي">' +
-    '<a class="sb-brand" href="#/"><span class="logo">ع</span><span>لمعة الاعتقاد<small>شرح الشيخ عبدالرزاق البدر</small></span></a>' +
+    '<a class="sb-brand" href="#/"><span class="brand-logo-wrap" style="width:30px;height:30px;border-radius:9px">' + bookLogoSvg(22) + '</span><span>لمعة الاعتقاد<small>شرح الشيخ عبدالرزاق البدر</small></span></a>' +
     '<nav class="sb-nav">' + links + '</nav>' +
     '<div class="sb-foot">' + acctCard +
     '<div class="sb-stat"><span><b>' + g.done + '</b> درسًا مكتملًا</span><span><b>' + (g.avg == null ? '—' : g.avg + '%') + '</b> متوسط الدرجات</span></div>' +
@@ -934,7 +934,7 @@ function viewSettings() {
       '') +
     '<div class="sec"><div class="card set-group">' +
     '<div class="set-row"><span class="si">' + ic('info', 17) + '</span><span class="sm"><b>عن التطبيق</b><small>«لمعة الاعتقاد» — متن ابن قدامة بشرح الشيخ عبدالرزاق البدر. يعمل التطبيق دون إنترنت بالكامل، ويمكن مزامنة التقدّم مع حساب عند الاتصال.</small></span></div>' +
-    '<div class="set-row"><span class="si" style="font-family:var(--font-read);font-weight:700;color:var(--gold-deep)">ع</span><span class="sm"><b>لمعة الاعتقاد 1.0</b><small>متن لمعة الاعتقاد · مشغّل دروس مرئي · حساب ومزامنة · واجهة للحاسوب — بيانات: ' + globalStats().total + ' درسًا · ' + TRACKS.reduce((a, t) => a + t.courses.reduce((b, c) => b + c.lessons.reduce((x, l) => x + (l.questions || []).length, 0), 0), 0) + ' سؤال اختبار</small></span></div>' +
+    '<div class="set-row"><span class="si brand-logo-wrap" style="width:34px;height:34px;border-radius:10px">' + bookLogoSvg(24) + '</span><span class="sm"><b>لمعة الاعتقاد 1.0</b><small>متن لمعة الاعتقاد · مشغّل دروس مرئي · حساب ومزامنة · واجهة للحاسوب — بيانات: ' + globalStats().total + ' درسًا · ' + TRACKS.reduce((a, t) => a + t.courses.reduce((b, c) => b + c.lessons.reduce((x, l) => x + (l.questions || []).length, 0), 0), 0) + ' سؤال اختبار</small></span></div>' +
     '</div></div>';
 }
 function bindSettings() {

@@ -1,11 +1,11 @@
 ﻿/* Ù…Ù†Ø§Ø±Ø© â€” Service Worker: cache-first Ù„Ù„Ø¹Ù…Ù„ Ø§Ù„ÙƒØ§Ù…Ù„ Ø¯ÙˆÙ† Ø¥Ù†ØªØ±Ù†Øª Â· API Ø¯Ø§Ø¦Ù…Ù‹Ø§ Ù…Ù† Ø§Ù„Ø´Ø¨ÙƒØ© */
-const CACHE = 'luma-itiqad-v3';
+const CACHE = 'luma-itiqad-v4';
 const ASSETS = [
-  './index.html?v=85',
-  './css/styles.css?v=85',
-  './js/data.js?v=85',
-  './js/app.js?v=85',
-  './manifest.webmanifest?v=85',
+  './index.html?v=86',
+  './css/styles.css?v=86',
+  './js/data.js?v=86',
+  './js/app.js?v=86',
+  './manifest.webmanifest?v=86',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/maskable-512.png',
