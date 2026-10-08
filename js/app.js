@@ -1072,7 +1072,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('online', () => { VP_LAST_ONLINE = true; updateSyncBadges(); pushSync(false); refreshVideoState(); });
   window.addEventListener('offline', () => { VP_LAST_ONLINE = false; updateSyncBadges(); vpHandleOffline(); });
   document.addEventListener('visibilitychange', () => { if (document.hidden && ACCT.user && navigator.onLine) pushSync(true); });
-  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
     navigator.serviceWorker.register('sw.js').catch(() => {});
   }
 });
